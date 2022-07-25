@@ -1,0 +1,149 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #6e5fa0;
+}
+
+.d-container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+}
+
+.cover-image {
+  height: 90vh;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.right-container {
+  width: 60%;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.close-icon {
+  width: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
+
+.form-container h2 {
+  color: #8083ff;
+}
+
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.name-fields .field {
+  width: 48%;
+}
+
+.form-section input {
+  border: solid 1px #62454559;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form-section label {
+  font-weight: bold;
+  font-size: small;
+}
+
+.checkbox-field {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.checkbox-field input[type="checkbox"] {
+  width: 15px;
+  margin: 0px 5px 0px 0px;
+}
+
+.checkbox-field span {
+  font-weight: bold;
+  font-size: small;
+}
+
+.button-signup {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px #62454559;
+  background: #8083ff;
+  color: white;
+}
+
+.button-signup + p {
+  text-align: center;
+}
+
+.buttons-signin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-section {
+  width: 48%;
+}
+
+.button-section button {
+  padding: 7px;
+  border-radius: 10px;
+  border: solid 1px #62454559;
+  font-size: 10px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button-section img {
+  width: 20px;
+}
+
+.account {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+}
+
+.account a {
+  text-decoration: none;
+  color: #8083ff;
+}
+
+button {
+  cursor: pointer;
+}
